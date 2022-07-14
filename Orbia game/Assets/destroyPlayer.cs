@@ -9,7 +9,9 @@ public class destroyPlayer : MonoBehaviour
         if(collision.gameObject.tag=="Player")
         {
             Destroy(collision.gameObject);
+            Time.timeScale = 0f;
             //gameObject.GetComponent<playerScript>().enabled = false;
+
         }
     }
 }
