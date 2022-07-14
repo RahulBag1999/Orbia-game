@@ -11,7 +11,11 @@ public class camScript : MonoBehaviour
     
     void Update()
     {
-        Vector3 followPos = new Vector3(transform.position.x, target.position.y + Yoffset, -10f);
-        transform.position = Vector3.Lerp(transform.position, followPos, followSpeed * Time.deltaTime);
+        if(target!=null)
+        {
+            Vector3 followPos = new Vector3(transform.position.x, target.position.y + Yoffset, -10f);
+            transform.position = Vector3.Lerp(transform.position, followPos, followSpeed * Time.deltaTime);
+        }  
     }
+
 }

@@ -9,21 +9,18 @@ public class playerScript : MonoBehaviour
     private bool move = false;
     void Update()
     {
-        if(Input.GetMouseButton(0))
-        {
-            move = true;
-        }
-        if(move==true)
-        {
-            transform.position = Vector3.Lerp(transform.position, target.position, speed * Time.deltaTime);
-        }
-        if(transform.position==target.position)
+         if(Input.GetMouseButton(0))
+         {
+             move = true;
+         }
+         if(move==true)
+         {
+             transform.position = Vector3.Lerp(transform.position, target.position, speed * Time.deltaTime);
+         }
+        if (transform.position == target.position)
         {
             move = false;
             target = target.GetComponent<ringScript>().targetRing.GetComponent<Transform>();
         }
     }
-
-    
-    
 }

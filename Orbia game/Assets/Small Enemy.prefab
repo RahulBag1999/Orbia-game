@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7159930884095942392}
   - component: {fileID: 2512621220179229338}
   - component: {fileID: 7328943904849228615}
+  - component: {fileID: 7717714732780215521}
   m_Layer: 0
   m_Name: Small Enemy
   m_TagString: Untagged
@@ -101,3 +102,15 @@ CircleCollider2D:
   m_Offset: {x: -0.65, y: 0}
   serializedVersion: 2
   m_Radius: 6.5193563
+--- !u!114 &7717714732780215521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143621474403908276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0710dbd903b12a24daf3354f11558b2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

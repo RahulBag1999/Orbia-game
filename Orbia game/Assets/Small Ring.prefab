@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 564029439482070666}
   - component: {fileID: 3048692930785747353}
   m_Layer: 0
-  m_Name: Samll Ring
+  m_Name: Small Ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 461735990226123256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.39, y: -2.03, z: 0}
-  m_LocalScale: {x: 0.08614473, y: 0.08710094, z: 0.08614473}
+  m_LocalScale: {x: 0.18004248, y: 0.18204096, z: 0.18004248}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 386d44387c15a88479131705e4550325, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3620f237f75a1a743951d79664fb9f73, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
