@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class destroyPlayer : MonoBehaviour
+public class WinningRing : MonoBehaviour
 {
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag=="Player")
         {
-            Destroy(collision.gameObject);
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
-        
     }
+
 }

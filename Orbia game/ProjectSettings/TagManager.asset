@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Small Enemy
+  - Win Ring
   layers:
   - Default
   - TransparentFX

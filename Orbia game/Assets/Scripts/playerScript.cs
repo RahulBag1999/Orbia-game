@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class playerScript : MonoBehaviour
 {
-    public float speed;
-    public Transform target;
+    [SerializeField] private float speed;
+    [SerializeField] private Transform target;
     private bool move = false;
+    
     void Update()
     {
          if(Input.GetMouseButton(0))
