@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class destroyPlayer : MonoBehaviour
 {
@@ -9,7 +10,8 @@ public class destroyPlayer : MonoBehaviour
         if(collision.gameObject.tag=="Player")
         {
             Destroy(collision.gameObject);
-            Time.timeScale = 0f;
+            
+            SceneManager.LoadScene(2);
             //gameObject.GetComponent<playerScript>().enabled = false;
 
         }
